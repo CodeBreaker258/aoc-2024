@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-// Read the input file
+// Read the input file, validate file
 const data = fs.readFileSync('input.txt', 'utf8');
 
 // Parse the input data
